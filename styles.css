@@ -12,6 +12,7 @@
   width: 416px;
 }
 
+
 .green-box,
 .right-box {
   flex-direction: column;
@@ -35,6 +36,11 @@
   margin: 10px 0;
 }
 
+.red-box {
+  background-color: #FAC0CB;
+  border: 2px solid #F50305;
+}
+
 .blue-box-two {
   padding: 5px;
 }
@@ -47,6 +53,10 @@
   border: 2px solid #F78072;
   background-color: #FBDAB9;
   padding: 2.5px;
+}
+
+.blue-box-two .pale-yellow-box {
+  padding: 0;
 }
 
 .middle-box {
@@ -70,7 +80,10 @@
 }
 
 .dull-blue-box.left,
-.blue-box-two .pale-yellow-box,
+.blue-box-two .pale-yellow-box {
+  margin-right: 2.5px;
+}
+
 .blue-box .pale-yellow-box.margin {
   margin-right: 5px;
 }
@@ -79,10 +92,7 @@
   margin-bottom: 5px;
 }
 
-.red-box {
-  background-color: #FAC0CB;
-  border: 2px solid #F50305;
-}
+
 
 img {
   height: 250px;
